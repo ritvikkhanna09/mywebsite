@@ -1,0 +1,4 @@
+wrapper-upper == wrapper-holder
+wrapper-lower == wrapper-holder-grey
+about-me-holder == box_timeline_holder
+about-me == box_timeline
