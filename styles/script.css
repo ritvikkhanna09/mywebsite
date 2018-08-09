@@ -16,6 +16,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 
 article, aside, details, figcaption, figure, 
@@ -84,7 +85,7 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
 	color: #fff;
-	font-size: 72px;
+	font-size: 60px;
 	line-height: 74px;
 	display: block;
 	text-transform: uppercase;
@@ -126,6 +127,7 @@ h2.slogan{
 	overflow: hidden;
 }
 .about-me{
+	color: #ffffff;
 	position: relative;
 	padding: 0 100px 0 0;
 	overflow: hidden;
@@ -149,13 +151,12 @@ h2.slogan{
 }
 .footer-content .social li{
 	float:left;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 67px;
 	border-radius: 50%;
-	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
-	background: #c6cfc9;
-	width: 123px;
-	height: 123px;
+	/*background: #c6cfc9;*/
+	width: 73px;
+	height: 73px;
 	position:relative;
 	display: table;
 }
@@ -171,13 +172,13 @@ transition: all 0.5s ease-in-out;
 	display: table-cell;	
 	position: relative;
 }
-.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50% ;}
-.footer-content .social li.facebook a{background: url(../images/icon_facebook.png) no-repeat 50% 50%;}
-.footer-content .social li.github a{background: url(../images/icon_github.png) no-repeat 50% 50% ;}
-.footer-content .social li.twitter a{background: url(../images/icon_twitter.png) no-repeat 50% 50% ;}
-.footer-content .social li.instagram a{background: url(../images/icon_instagram.png) no-repeat 50% 50%;}
+.footer-content .social li.linkedin a{background: url(../images/Linkedin.png) no-repeat 50% 50% ;}
+.footer-content .social li.facebook a{background: url(../images/Facebook.png) no-repeat 50% 50%;}
+.footer-content .social li.github a{background: url(../images/Github.png) no-repeat 50% 50% ;}
+.footer-content .social li.twitter a{background: url(../images/Twitter.png) no-repeat 50% 50% ;}
+.footer-content .social li.instagram a{background: url(../images/Instagram.png) no-repeat 50% 50%;}
 .footer-content p{
-	font:18px/20px Arial, Helvetica, sans-serif;
+	font:12px/16px Arial, Helvetica, sans-serif;
 	display: block;
 	text-align: center;
 	color: #929c95;
