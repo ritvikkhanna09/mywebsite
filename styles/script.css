@@ -71,7 +71,7 @@ ol, ul {
 	font-family: 'Arial';
 	font-weight: normal;
 }
-#nav ul a:hover,#nav ul a.active{
+#nav ul a:hover,#nav ul a.activ{
 	color: #fff;
 	border-bottom: 4px solid #fff;
 	text-decoration: none;
@@ -350,3 +350,35 @@ th {
 	text-align: center;
 	margin: 0 0 10px;
 }
+
+
+
+
+
+.accordion {
+    background-color: #2E2F2F;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.active ,.accordion:hover{
+    background-color: #ccc;
+}
+
+
+.panel {
+    padding: 0 18px;
+    /*background-color: white;*/
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+
