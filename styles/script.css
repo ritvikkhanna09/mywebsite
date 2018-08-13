@@ -98,6 +98,7 @@ hr{
 	width: 80px;
 }
 hr.subsection-divider{
+	align-items: center;
 	border: none;
 	background: #fff;
 	height:4px;
@@ -124,7 +125,7 @@ h2.slogan{
 #main{
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 53px 0 76px;
+	padding: 53px 0 46px;
 	position:relative;
 	background: url(../images/icon_header.png) no-repeat 50% 0;
 }
@@ -146,6 +147,7 @@ h2.slogan{
 	word-wrap: break-word
 }
 .about-me{
+	text-align: justify;
 	padding-left: 100px;
 	width:800px;
 	/*float: right;*/
@@ -183,6 +185,7 @@ h2.slogan{
 			color: #FFF;
 		}
 .about-work{
+	text-align: justify;
 	width: 60%;
 	display: inline-block;
 	padding-left: 105px;
@@ -357,12 +360,13 @@ th {
 	display: block;
 /*	display: flex;
   	justify-content: center;*/
-	align-items: center;
+	/*align-items: center;*/
+	text-align: center;
 	color: #fff;
 	margin-top: 20px
 	margin-left: 130px;
 	margin-bottom: 20px;
-	padding: 25px 55px 25px 20px;
+	padding: 25px 40px 25px 35px;
 	overflow: hidden;
 	word-wrap: break-word
 }
@@ -378,15 +382,16 @@ th {
 
 
 .accordion {
+	font-family: "Helvetica";
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 	color: #fff;
-	margin: 20px 0 20px 450px;
+	margin: 20px 0 20px 0px;
 	padding: 10px 10px 10px 10px;
 	align-self: center;
     background-color: #2E2F2F;
     cursor: pointer;
-    width: 20%;
+    width: auto;
     text-align: center;
     border: none;
     outline: none;
@@ -397,15 +402,20 @@ th {
 .active ,.accordion:hover{
     color: #ACBDBA;
     border: initial;
-    border-color: black;
+    border-color: black;/*
+    text-decoration: underline;*/
 }
 
 
 .panel {
+	padding: 0 150px 0 190px;
+	align-items: center;
     max-height: 0;
     height: auto;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
+.panel p{
+	text-align: justify;
+}
 
