@@ -353,13 +353,40 @@ th {
 
 
 
+.projects-holder{
+	display: block;
+/*	display: flex;
+  	justify-content: center;*/
+	align-items: center;
+	color: #fff;
+	margin-top: 20px
+	margin-left: 130px;
+	margin-bottom: 20px;
+	padding: 25px 55px 25px 20px;
+	overflow: hidden;
+	word-wrap: break-word
+}
+/*.about-project{
+	padding-left: 100px;
+	width:800px;
+	height: auto;
+	color: #ffffff;
+	position: relative;
+	overflow: hidden;
+	word-wrap: break-word
+}*/
 
 
 .accordion {
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	margin: 20px 0 20px 450px;
+	padding: 10px 10px 10px 10px;
+	align-self: center;
     background-color: #2E2F2F;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    width: 20%;
     text-align: center;
     border: none;
     outline: none;
@@ -368,17 +395,17 @@ th {
 
 
 .active ,.accordion:hover{
-    background-color: #ccc;
+    color: #ACBDBA;
+    border: initial;
+    border-color: black;
 }
 
 
 .panel {
-    padding: 0 18px;
-    /*background-color: white;*/
     max-height: 0;
+    height: auto;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
 
 
